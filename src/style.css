@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-space-indigo-100: #07070c;
+  --color-space-indigo-200: #0d0d17;
+  --color-space-indigo-300: #141423;
+  --color-space-indigo-400: #1b1b2f;
+  --color-space-indigo-500: #22223b;
+  --color-space-indigo-600: #40406f;
+  --color-space-indigo-700: #6060a3;
+  --color-space-indigo-800: #9595c2;
+  --color-space-indigo-900: #cacae0;
+  --color-space-indigo: #22223b;
+
+  --color-dusty-grape-100: #0f1015;
+  --color-dusty-grape-200: #1e1f2a;
+  --color-dusty-grape-300: #2c2f3f;
+  --color-dusty-grape-400: #3b3e54;
+  --color-dusty-grape-500: #4a4e69;
+  --color-dusty-grape-600: #666b8f;
+  --color-dusty-grape-700: #8b8fac;
+  --color-dusty-grape-800: #b1b4c8;
+  --color-dusty-grape-900: #d8dae3;
+  --color-dusty-grape: #4a4e69;
+
+  --color-lilac-ash-100: #1f1c1f;
+  --color-lilac-ash-200: #3f383e;
+  --color-lilac-ash-300: #5e535c;
+  --color-lilac-ash-400: #7d6f7b;
+  --color-lilac-ash-500: #9a8c98;
+  --color-lilac-ash-600: #aea4ad;
+  --color-lilac-ash-700: #c3bbc1;
+  --color-lilac-ash-800: #d7d2d6;
+  --color-lilac-ash-900: #ebe8ea;
+  --color-lilac-ash: #9a8c98;
+
+  --color-almond-silk-100: #2e1f1c;
+  --color-almond-silk-200: #5b3e38;
+  --color-almond-silk-300: #895d54;
+  --color-almond-silk-400: #ad8279;
+  --color-almond-silk-500: #c9ada7;
+  --color-almond-silk-600: #d4bdb8;
+  --color-almond-silk-700: #dececa;
+  --color-almond-silk-800: #e9dedc;
+  --color-almond-silk-900: #f4efed;
+  --color-almond-silk: #c9ada7;
+
+  --color-parchment-100: #3f2a1e;
+  --color-parchment-200: #7f543d;
+  --color-parchment-300: #b58165;
+  --color-parchment-400: #d3b5a4;
+  --color-parchment-500: #f2e9e4;
+  --color-parchment-600: #f4ede9;
+  --color-parchment-700: #f7f1ee;
+  --color-parchment-800: #faf6f4;
+  --color-parchment-900: #fcfaf9;
+  --color-parchment: #f2e9e4;
+}
+
+body {
+  @apply bg-parchment text-space-indigo-900 font-sans antialiased;
+}
